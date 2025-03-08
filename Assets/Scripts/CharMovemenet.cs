@@ -4,38 +4,66 @@ using UnityEngine;
 
 //Character only moves in x and z axis
 //looks at the direction of movement
-//gravity is onto rigidbody
+//works with rigidbody
+//rotates smoothly
 
 public class CharMovemenet : MonoBehaviour
 {
-    public float speed = 6.0f;
-    public float rotationSmooth = 1.0f;
-
-    private Vector3 moveDirection = Vector3.zero;
-    private CharacterController controller;
+    public float speed = 5.0f;
+    public float GravityFactor = 1.0f;
+    private Rigidbody rb;
+    private Vector3 moveDirection;
+    private Vector3 lookDirection;
+    private float horizontalInput;
+    private float verticalInput;
+    
+    public bool isGrounded;
 
     void Start()
     {
-        controller = GetComponent<CharacterController>();
+        rb = GetComponent<Rigidbody>();
     }
 
     void Update()
     {
-
-        moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
-        //moveDirection = transform.TransformDirection(moveDirection);
-        moveDirection *= speed;
-
-        if(moveDirection.magnitude > 0.1f)
-        { 
-        controller.Move(moveDirection * Time.deltaTime);
+        horizontalInput = Input.GetAxis("Horizontal");
+        verticalInput = Input.GetAxis("Vertical");
+        moveDirection = new Vector3(horizontalInput, 0, verticalInput);
+        lookDirection = new Vector3(horizontalInput, 0, verticalInput);
+        
+        //check if the player is grounded 
+        //raycast and check if the casted ray hits the ground layer
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, 0.6f))
+        {
+            if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Ground"))
+            {
+                isGrounded = true;
+            }
+            else
+            {
+                isGrounded = false;
+            }
         }
+        else
+        {
+            isGrounded = false;
+        }
+
+        //gravity
+        if (!isGrounded)
+        {
+            rb.AddForce(Physics.gravity * GravityFactor);
+        }
+    }
+
+    void FixedUpdate()
+    {
+        
+        rb.velocity = new Vector3(moveDirection.x * speed, rb.velocity.y, moveDirection.z * speed);
         if (moveDirection != Vector3.zero)
         {
-            float smoothfactor= rotationSmooth;
-            //rotates 2x slower if moveDirection is the opposite of previous one
-            if(Vector3.Angle(transform.forward, moveDirection) > 170f || Vector3.Angle(transform.forward, moveDirection) < -170) smoothfactor*=2;
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(moveDirection), 0.15f/smoothfactor);
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(lookDirection), 0.15f);
         }
     }
 }

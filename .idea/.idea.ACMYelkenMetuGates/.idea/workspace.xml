@@ -6,20 +6,51 @@
   <component name="ChangeListManager">
     <list default="true" id="721617bf-f8c2-4f3d-adca-ba48b135f1cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ACMYelkenMetuGates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ACMYelkenMetuGates/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GatesGround.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GatesGround.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Doormat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Doormat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Doormat.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Doormat.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Gate/Gatemat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Gate/Gatemat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Gate/Gatemat.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Gate/Gatemat.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level-1-Gates.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level-1-Gates.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level-1-Gates.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level-1-Gates.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Metal08_nrm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Metal08_nrm.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Rock04_nrm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Rock04_nrm.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Rock04_rgh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Rock04_rgh.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Silver_old_Base Color.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Silver_old_Base Color.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Silver_old_Metallic.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Silver_old_Metallic.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Silver_old_Roughness.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Silver_old_Roughness.jpeg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_BaseColor.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_BaseColor.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_Metallic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_Metallic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_Normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_Normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_Roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_Roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Doormat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Doormat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Silver_old_Base Color.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Silver_old_Base Color.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/medieval small town  Gate_BaseColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/medieval small town  Gate_BaseColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/metal.dark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/metal.dark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/plain.002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/plain.002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/plain.003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/plain.003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.dark.002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.dark.002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.dark.003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.dark.003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharMovemenet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharMovemenet.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +62,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoorEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KapıBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -108,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741382644789</updated>
       <workItem from="1741382644791" duration="3000" />
-      <workItem from="1741389430642" duration="2083000" />
+      <workItem from="1741389430642" duration="11396000" />
     </task>
     <servers />
   </component>
