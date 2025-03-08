@@ -5,52 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="721617bf-f8c2-4f3d-adca-ba48b135f1cd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ACMYelkenMetuGates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ACMYelkenMetuGates/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Metal08_nrm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Metal08_nrm.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Normal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Normal.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Rock04_nrm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Rock04_nrm.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Rock04_rgh.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Rock04_rgh.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Silver_old_Base Color.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Silver_old_Base Color.jpeg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Silver_old_Metallic.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Silver_old_Metallic.jpeg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Silver_old_Roughness.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/Silver_old_Roughness.jpeg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_BaseColor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_BaseColor.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_Metallic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_Metallic.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_Normal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_Normal.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_Roughness.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Kapılar.fbm/medieval small town  Gate_Roughness.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Doormat.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Doormat.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Silver_old_Base Color.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Silver_old_Base Color.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/medieval small town  Gate_BaseColor.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/medieval small town  Gate_BaseColor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/metal.dark.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/metal.dark.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/plain.002.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/plain.002.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/plain.003.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/plain.003.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.002.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.002.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.003.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.003.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.dark.002.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.dark.002.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.dark.003.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/stone.dark.003.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharMovemenet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharMovemenet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLayer.terrainlayer" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NewLayer.terrainlayer.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoorEventHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/KapıBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Shaders/Terrain/TerrainLit.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -73,27 +30,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Ciaodar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Ciaodar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Ciaodar\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Ciaodar\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\Ciaodar\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Ciaodar\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Ciaodar\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Ciaodar\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe" />
@@ -142,6 +99,7 @@
       <updated>1741382644789</updated>
       <workItem from="1741382644791" duration="3000" />
       <workItem from="1741389430642" duration="11659000" />
+      <workItem from="1741416541494" duration="733000" />
     </task>
     <servers />
   </component>
