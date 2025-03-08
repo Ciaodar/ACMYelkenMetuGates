@@ -6,19 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="721617bf-f8c2-4f3d-adca-ba48b135f1cd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ACMYelkenMetuGates/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ACMYelkenMetuGates/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Player.physicMaterial" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Player.physicMaterial.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/PortFab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/PortFab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level-1m.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level-1m.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGate.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGate.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharMovemenet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharMovemenet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DoorEventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DoorEventHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/KapıBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KapıBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayStart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/NewLayer.terrainlayer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/NewLayer.terrainlayer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

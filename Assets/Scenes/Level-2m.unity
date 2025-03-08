@@ -216,7 +216,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What makes the blood red
+  m_text: 2+2=...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -517,7 +517,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wet
+  m_text: Water spill on it
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -580,7 +580,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 7.6140504, y: 0.7688279, z: 9.127688, w: 3.0956063}
+  m_margin: {x: 7.6140504, y: 0.35160112, z: 9.090342, w: 3.0956063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -751,7 +751,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Cherry Juice
+  m_text: 'Handsome
+
+    Security'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -814,7 +816,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 7.8502054, y: 0.7688279, z: 9.543589, w: 3.0956063}
+  m_margin: {x: 7.705754, y: 0.7688279, z: 9.165665, w: 3.0956063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -1035,21 +1037,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TextToSend: 
   wrongAnswer: 1
-  AboveDoorText: {fileID: 0}
-  other1: {fileID: 0}
-  other2: {fileID: 0}
+  AboveDoorText: {fileID: 1660358022}
+  other1: {fileID: 1880299740}
+  other2: {fileID: 904104107}
   doorBehaviour: 0
   fallSpeed: 3
   flySpeed: 2
   flyAwayForce: 3
   flyAwayTorque: 3
   doors: []
---- !u!4 &1027077900 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
-    type: 3}
-  m_PrefabInstance: {fileID: 1326250733}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1050374333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1199,17 +1195,131 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextToSend: 
-  wrongAnswer: 1
-  AboveDoorText: {fileID: 0}
-  other1: {fileID: 0}
-  other2: {fileID: 0}
+  TextToSend: Computer works when water poured on it
+  wrongAnswer: 0
+  AboveDoorText: {fileID: 591990841}
+  other1: {fileID: 1724374127}
+  other2: {fileID: 1910384977}
   doorBehaviour: 0
   fallSpeed: 3
   flySpeed: 2
   flyAwayForce: 3
   flyAwayTorque: 3
   doors: []
+--- !u!1001 &1176483149
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.55
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_Name
+      value: whale
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1648159382}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1648159381}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1648159380}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f6c818c525f9f5446b45e14105da6191,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1648159384}
+  m_SourcePrefab: {fileID: 100100000, guid: f6c818c525f9f5446b45e14105da6191, type: 3}
 --- !u!1 &1204945451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,74 +1387,6 @@ Transform:
   - {fileID: 263781207}
   m_Father: {fileID: 1894346857}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1326250733
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2880091414928651739, guid: 83c6d38c8bd6f8242b59971d698cf36c,
-        type: 3}
-      propertyPath: m_Name
-      value: PlayerAslan
-      objectReference: {fileID: 0}
-    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.958769
-      objectReference: {fileID: 0}
-    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 8.19
-      objectReference: {fileID: 0}
-    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4.036331
-      objectReference: {fileID: 0}
-    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 83c6d38c8bd6f8242b59971d698cf36c, type: 3}
 --- !u!1 &1389552444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,8 +1755,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextToSend: Water is Flamable
-  wrongAnswer: 0
+  TextToSend: 
+  wrongAnswer: 1
   AboveDoorText: {fileID: 1724374127}
   other1: {fileID: 591990841}
   other2: {fileID: 1910384977}
@@ -1845,6 +1887,104 @@ Transform:
   - {fileID: 738464538}
   m_Father: {fileID: 1894346857}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!1 &1648159379 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f6c818c525f9f5446b45e14105da6191,
+    type: 3}
+  m_PrefabInstance: {fileID: 1176483149}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1648159380
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648159379}
+  m_Material: {fileID: 13400000, guid: 87563acefa9dadd4ba337aae70039ac1, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.635061
+  m_Height: 2.4793239
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.16373241, z: 0.44235754}
+--- !u!114 &1648159381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648159379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88d42f54697924240b2efb4bc129628e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 6
+  GravityFactor: 1
+  isGrounded: 0
+--- !u!95 &1648159382
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648159379}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: db5fcd04c1f1e18409d7df4c7c433cf3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!4 &1648159383 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f6c818c525f9f5446b45e14105da6191,
+    type: 3}
+  m_PrefabInstance: {fileID: 1176483149}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1648159384
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648159379}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 1
 --- !u!1 &1660358021
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,9 +2023,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hemo-
-
-    globin'
+  m_text: 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1948,7 +2086,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 7.966291, y: 0.7688279, z: 9.445573, w: 3.0956063}
+  m_margin: {x: 7.567149, y: 0.7688279, z: 9.445573, w: 3.0956063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -2056,7 +2194,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Flameable
+  m_text: Plugged in
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2119,7 +2257,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 7.6865835, y: 0.7688279, z: 9.327708, w: 3.0956063}
+  m_margin: {x: 7.6865835, y: 0.14300346, z: 9.327708, w: 3.0956063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -2223,7 +2361,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0.7}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1756055103
@@ -2246,7 +2384,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Water is...
+  m_text: Computer works when..
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2595,7 +2733,7 @@ PrefabInstance:
         type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1027077900}
+      objectReference: {fileID: 1648159383}
     - target: {fileID: 8929752693119895227, guid: 11af3a2bef1ebd549be0d19f86f9d8bf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2689,7 +2827,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Turkish Ayran
+  m_text: 4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2752,7 +2890,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 7.876293, y: 0.7688279, z: 9.347226, w: 3.0956063}
+  m_margin: {x: 7.876293, y: 0.7688279, z: 9.260652, w: 3.0956063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -2893,7 +3031,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Explosive
+  m_text: 'Crushed
+
+    by an axe'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2956,7 +3096,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 7.640246, y: 0.7688279, z: 9.395578, w: 3.0956063}
+  m_margin: {x: 7.640246, y: 0.4594736, z: 9.123264, w: 3.0956063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -3534,8 +3674,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextToSend: Lion Eats Dirt
-  wrongAnswer: 0
+  TextToSend: 
+  wrongAnswer: 1
   AboveDoorText: {fileID: 6944259419965744758}
   other1: {fileID: 7556994846513707240}
   other2: {fileID: 1217487625349650006}
@@ -3565,7 +3705,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Grass
+  m_text: Fly
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3735,7 +3875,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What does Lion Eat?
+  m_text: Whale can...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4425,11 +4565,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextToSend: 
-  wrongAnswer: 1
-  AboveDoorText: {fileID: 0}
-  other1: {fileID: 0}
-  other2: {fileID: 0}
+  TextToSend: Whale can Walk
+  wrongAnswer: 0
+  AboveDoorText: {fileID: 7556994846513707240}
+  other1: {fileID: 1217487625349650006}
+  other2: {fileID: 6944259419965744758}
   doorBehaviour: 0
   fallSpeed: 3
   flySpeed: 2
@@ -4520,7 +4660,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Dirt
+  m_text: Swim
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4631,7 +4771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextToSend: Lion Eats Grass
+  TextToSend: Whale Can Fly
   wrongAnswer: 0
   AboveDoorText: {fileID: 1217487625349650006}
   other1: {fileID: 7556994846513707240}
@@ -4662,7 +4802,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Meat
+  m_text: Walk
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4833,4 +4973,4 @@ SceneRoots:
   - {fileID: 7743642479342935722}
   - {fileID: 1482714466}
   - {fileID: 1894346857}
-  - {fileID: 1326250733}
+  - {fileID: 1176483149}

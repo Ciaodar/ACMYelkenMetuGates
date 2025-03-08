@@ -6,6 +6,8 @@ using UnityEngine;
 public class LevelHandler : MonoBehaviour
 {
     private static int _factCounter = 1,_answerCounter = 1;
+    
+    
 
     public static void SaveTheFact(String factText)
     {
@@ -14,7 +16,7 @@ public class LevelHandler : MonoBehaviour
     
     public static void SaveTheAnswer(String answerText)
     {
-        PlayerPrefs.SetString("Answer" + _answerCounter++, answerText);
+        PlayerPrefs.SetString("info" + _answerCounter++, answerText);
     }
     
 }
