@@ -16,7 +16,7 @@ public class DoorEventHandler : MonoBehaviour
 
     private void Start()
     {
-        player = GameObject.FindWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("Player");
         SpawnPoint = player.transform.position;
         doorEvent = (() => { 
             //restart the scene
@@ -26,6 +26,9 @@ public class DoorEventHandler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        doorEvent?.Invoke();
+        if (other.gameObject.tag == "Player")
+        {
+            doorEvent?.Invoke();
+        }
     }
 }

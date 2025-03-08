@@ -159,37 +159,6 @@ Transform:
   - {fileID: 452516223}
   m_Father: {fileID: 1482714466}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
---- !u!1 &223400370
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 223400371}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &223400371
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 223400370}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2121879794}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &263781206
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +216,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Kana K\u0131rm\u0131z\u0131 Rengi\nVeren Madde Nedir?"
+  m_text: What makes the blood red
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -310,7 +279,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 4.171297, y: 0, z: 5.760395, w: 2.7088766}
+  m_margin: {x: 4.435827, y: 0, z: 5.9724083, w: 2.7088766}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -548,7 +517,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Islat\u0131r"
+  m_text: Wet
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -611,7 +580,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 8.161067, y: 0.7688279, z: 9.701517, w: 3.0956063}
+  m_margin: {x: 7.6140504, y: 0.7688279, z: 9.127688, w: 3.0956063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -782,7 +751,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vi\u015Fne\nSuyu"
+  m_text: Cherry Juice
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -845,7 +814,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 8.18054, y: 0.7688279, z: 9.8492365, w: 3.0956063}
+  m_margin: {x: 7.8502054, y: 0.7688279, z: 9.543589, w: 3.0956063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -926,9 +895,9 @@ GameObject:
   - component: {fileID: 1002409709}
   - component: {fileID: 1002409714}
   - component: {fileID: 1002409713}
-  - component: {fileID: 1002409712}
   - component: {fileID: 1002409711}
   - component: {fileID: 1002409710}
+  - component: {fileID: 1002409715}
   m_Layer: 0
   m_Name: "SolKap\u0131"
   m_TagString: Untagged
@@ -1000,27 +969,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1550514412580984892, guid: 72ab35c967ec3a244937a94692f5d6d2, type: 3}
---- !u!114 &1002409712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002409708}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AboveDoorText: {fileID: 1660358022}
-  other1: {fileID: 1880299740}
-  other2: {fileID: 904104107}
-  doorBehaviour: 0
-  fallSpeed: 1
-  flySpeed: 1
-  flyHeight: 1
-  flyAwayForce: 1
-  flyAwayTorque: 1
 --- !u!23 &1002409713
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1073,6 +1021,35 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002409708}
   m_Mesh: {fileID: -1550514412580984892, guid: 72ab35c967ec3a244937a94692f5d6d2, type: 3}
+--- !u!114 &1002409715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002409708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextToSend: 
+  wrongAnswer: 1
+  AboveDoorText: {fileID: 0}
+  other1: {fileID: 0}
+  other2: {fileID: 0}
+  doorBehaviour: 0
+  fallSpeed: 3
+  flySpeed: 2
+  flyAwayForce: 3
+  flyAwayTorque: 3
+  doors: []
+--- !u!4 &1027077900 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1326250733}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1050374333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,10 +1061,9 @@ GameObject:
   - component: {fileID: 1050374334}
   - component: {fileID: 1050374340}
   - component: {fileID: 1050374339}
-  - component: {fileID: 1050374338}
   - component: {fileID: 1050374337}
   - component: {fileID: 1050374336}
-  - component: {fileID: 1050374335}
+  - component: {fileID: 1050374341}
   m_Layer: 0
   m_Name: "OrtaKap\u0131"
   m_TagString: Untagged
@@ -1110,27 +1086,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 222621156}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1050374335
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050374333}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.020000007, y: 0.002759598, z: 0.04823859}
-  m_Center: {x: 0.009999984, y: -0.00037978304, z: 0.003628982}
 --- !u!54 &1050374336
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1180,27 +1135,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 72ab35c967ec3a244937a94692f5d6d2, type: 3}
---- !u!114 &1050374338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050374333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AboveDoorText: {fileID: 591990841}
-  other1: {fileID: 1724374127}
-  other2: {fileID: 1910384977}
-  doorBehaviour: 0
-  fallSpeed: 1
-  flySpeed: 1
-  flyHeight: 1
-  flyAwayForce: 1
-  flyAwayTorque: 1
 --- !u!23 &1050374339
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1253,74 +1187,29 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050374333}
   m_Mesh: {fileID: 4493585093827132993, guid: 72ab35c967ec3a244937a94692f5d6d2, type: 3}
---- !u!1001 &1175511361
-PrefabInstance:
+--- !u!114 &1050374341
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5808971295000836856, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d987e4df269b4c9479721dbaab8fdee1, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050374333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextToSend: 
+  wrongAnswer: 1
+  AboveDoorText: {fileID: 0}
+  other1: {fileID: 0}
+  other2: {fileID: 0}
+  doorBehaviour: 0
+  fallSpeed: 3
+  flySpeed: 2
+  flyAwayForce: 3
+  flyAwayTorque: 3
+  doors: []
 --- !u!1 &1204945451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,40 +1275,76 @@ Transform:
   - {fileID: 1880299742}
   - {fileID: 904104109}
   - {fileID: 263781207}
-  - {fileID: 1223771495}
   m_Father: {fileID: 1894346857}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1223771494
-GameObject:
+--- !u!1001 &1326250733
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1223771495}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1223771495
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223771494}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1211616420}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2880091414928651739, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerAslan
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.958769
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.036331
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83c6d38c8bd6f8242b59971d698cf36c, type: 3}
 --- !u!1 &1389552444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1545,7 +1470,6 @@ GameObject:
   - component: {fileID: 1401065868}
   - component: {fileID: 1401065867}
   - component: {fileID: 1401065866}
-  - component: {fileID: 1401065865}
   m_Layer: 0
   m_Name: "OrtaKap\u0131"
   m_TagString: Untagged
@@ -1568,27 +1492,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1635657532}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1401065865
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1401065863}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.020000007, y: 0.002759598, z: 0.04823859}
-  m_Center: {x: 0.009999984, y: -0.00037978304, z: 0.003628982}
 --- !u!54 &1401065866
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1650,15 +1553,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextToSend: Turkish Ayran makes the blood red
+  wrongAnswer: 0
   AboveDoorText: {fileID: 1880299740}
   other1: {fileID: 1660358022}
   other2: {fileID: 904104107}
   doorBehaviour: 0
-  fallSpeed: 1
-  flySpeed: 1
-  flyHeight: 1
-  flyAwayForce: 1
-  flyAwayTorque: 1
+  fallSpeed: 3
+  flySpeed: 2
+  flyAwayForce: 3
+  flyAwayTorque: 3
+  doors: []
 --- !u!23 &1401065869
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1808,15 +1713,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextToSend: Water is Flamable
+  wrongAnswer: 0
   AboveDoorText: {fileID: 1724374127}
   other1: {fileID: 591990841}
   other2: {fileID: 1910384977}
   doorBehaviour: 0
-  fallSpeed: 1
-  flySpeed: 1
-  flyHeight: 1
-  flyAwayForce: 1
-  flyAwayTorque: 1
+  fallSpeed: 3
+  flySpeed: 2
+  flyAwayForce: 3
+  flyAwayTorque: 3
+  doors: []
 --- !u!23 &1429761931
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1902,12 +1809,6 @@ Transform:
   - {fileID: 222621156}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1605244757 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1175511361}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1635657531
 GameObject:
   m_ObjectHideFlags: 0
@@ -2047,7 +1948,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 8.18054, y: 0.7688279, z: 9.8492365, w: 3.0956063}
+  m_margin: {x: 7.966291, y: 0.7688279, z: 9.445573, w: 3.0956063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -2155,7 +2056,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Yakar
+  m_text: Flameable
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2218,7 +2119,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 8.18054, y: 0.7688279, z: 9.8492365, w: 3.0956063}
+  m_margin: {x: 7.6865835, y: 0.7688279, z: 9.327708, w: 3.0956063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -2345,7 +2246,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Su Ne Yapar?
+  m_text: Water is...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2694,21 +2595,21 @@ PrefabInstance:
         type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1605244757}
+      objectReference: {fileID: 1027077900}
     - target: {fileID: 8929752693119895227, guid: 11af3a2bef1ebd549be0d19f86f9d8bf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8929752693119895227, guid: 11af3a2bef1ebd549be0d19f86f9d8bf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8929752693119895227, guid: 11af3a2bef1ebd549be0d19f86f9d8bf,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 8929752693119895227, guid: 11af3a2bef1ebd549be0d19f86f9d8bf,
         type: 3}
@@ -2788,7 +2689,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u015Ealgam"
+  m_text: Turkish Ayran
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2851,7 +2752,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 8.161067, y: 0.7688279, z: 9.701517, w: 3.0956063}
+  m_margin: {x: 7.876293, y: 0.7688279, z: 9.347226, w: 3.0956063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -2992,7 +2893,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Patlar
+  m_text: Explosive
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3055,7 +2956,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 8.18054, y: 0.7688279, z: 9.8492365, w: 3.0956063}
+  m_margin: {x: 7.640246, y: 0.7688279, z: 9.395578, w: 3.0956063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -3222,15 +3123,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextToSend: Cherry Juice Makes the blood red
+  wrongAnswer: 0
   AboveDoorText: {fileID: 904104107}
   other1: {fileID: 1660358022}
   other2: {fileID: 1880299740}
   doorBehaviour: 0
-  fallSpeed: 1
-  flySpeed: 1
-  flyHeight: 1
-  flyAwayForce: 1
-  flyAwayTorque: 1
+  fallSpeed: 3
+  flySpeed: 2
+  flyAwayForce: 3
+  flyAwayTorque: 3
+  doors: []
 --- !u!23 &2088980622
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3316,7 +3219,6 @@ Transform:
   - {fileID: 591990843}
   - {fileID: 1910384979}
   - {fileID: 1756055102}
-  - {fileID: 223400371}
   m_Father: {fileID: 1482714466}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2133198219
@@ -3416,15 +3318,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextToSend: Water Explodes
+  wrongAnswer: 0
   AboveDoorText: {fileID: 1910384977}
   other1: {fileID: 1724374127}
   other2: {fileID: 591990841}
   doorBehaviour: 0
-  fallSpeed: 1
-  flySpeed: 1
-  flyHeight: 1
-  flyAwayForce: 1
-  flyAwayTorque: 1
+  fallSpeed: 3
+  flySpeed: 2
+  flyAwayForce: 3
+  flyAwayTorque: 3
+  doors: []
 --- !u!23 &2133198224
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3602,27 +3506,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &384735944250400412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4739913868781914046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AboveDoorText: {fileID: 7556994846513707240}
-  other1: {fileID: 1217487625349650006}
-  other2: {fileID: 6944259419965744758}
-  doorBehaviour: 0
-  fallSpeed: 1
-  flySpeed: 1
-  flyHeight: 1
-  flyAwayForce: 1
-  flyAwayTorque: 1
 --- !u!1 &569569634037584062
 GameObject:
   m_ObjectHideFlags: 0
@@ -3651,15 +3534,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextToSend: Lion Eats Dirt
+  wrongAnswer: 0
   AboveDoorText: {fileID: 6944259419965744758}
   other1: {fileID: 7556994846513707240}
   other2: {fileID: 1217487625349650006}
   doorBehaviour: 0
-  fallSpeed: 1
-  flySpeed: 1
-  flyHeight: 1
-  flyAwayForce: 1
-  flyAwayTorque: 1
+  fallSpeed: 3
+  flySpeed: 2
+  flyAwayForce: 3
+  flyAwayTorque: 3
+  doors: []
 --- !u!114 &1217487625349650006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3680,7 +3565,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ot
+  m_text: Grass
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3850,7 +3735,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Aslan Ne Yer?
+  m_text: What does Lion Eat?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3936,7 +3821,6 @@ GameObject:
   - component: {fileID: 7341483813653808135}
   - component: {fileID: 8337986917378830177}
   - component: {fileID: 4749937604471218607}
-  - component: {fileID: 8550015495958231141}
   m_Layer: 0
   m_Name: "OrtaKap\u0131"
   m_TagString: Untagged
@@ -4085,21 +3969,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!4 &2641901747064622809
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5755319741139873379}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6254626794486274991}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &2692947063045473891
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4268,9 +4137,9 @@ GameObject:
   - component: {fileID: 5985540985470127931}
   - component: {fileID: 5472746408934418519}
   - component: {fileID: 6025466992326629613}
-  - component: {fileID: 384735944250400412}
   - component: {fileID: 6464902567236216182}
   - component: {fileID: 2692947063045473891}
+  - component: {fileID: 6464902567236216183}
   m_Layer: 0
   m_Name: "SolKap\u0131"
   m_TagString: Untagged
@@ -4345,22 +4214,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4739913868781914046}
   m_Mesh: {fileID: -1550514412580984892, guid: 72ab35c967ec3a244937a94692f5d6d2, type: 3}
---- !u!1 &5755319741139873379
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2641901747064622809}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &5841566838073098841
 GameObject:
   m_ObjectHideFlags: 0
@@ -4528,7 +4381,6 @@ Transform:
   - {fileID: 9212619559768283130}
   - {fileID: 272010061064842817}
   - {fileID: 3119430483202237706}
-  - {fileID: 2641901747064622809}
   m_Father: {fileID: 7743642479342935722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6396777276279766127
@@ -4561,6 +4413,29 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1550514412580984892, guid: 72ab35c967ec3a244937a94692f5d6d2, type: 3}
+--- !u!114 &6464902567236216183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4739913868781914046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextToSend: 
+  wrongAnswer: 1
+  AboveDoorText: {fileID: 0}
+  other1: {fileID: 0}
+  other2: {fileID: 0}
+  doorBehaviour: 0
+  fallSpeed: 3
+  flySpeed: 2
+  flyAwayForce: 3
+  flyAwayTorque: 3
+  doors: []
 --- !u!23 &6469765478326305505
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4645,7 +4520,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Toprak
+  m_text: Dirt
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4756,15 +4631,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextToSend: Lion Eats Grass
+  wrongAnswer: 0
   AboveDoorText: {fileID: 1217487625349650006}
   other1: {fileID: 7556994846513707240}
   other2: {fileID: 6944259419965744758}
   doorBehaviour: 0
-  fallSpeed: 1
-  flySpeed: 1
-  flyHeight: 1
-  flyAwayForce: 1
-  flyAwayTorque: 1
+  fallSpeed: 3
+  flySpeed: 2
+  flyAwayForce: 3
+  flyAwayTorque: 3
+  doors: []
 --- !u!114 &7556994846513707240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4785,7 +4662,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Et
+  m_text: Meat
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4896,27 +4773,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4493585093827132993, guid: 72ab35c967ec3a244937a94692f5d6d2, type: 3}
---- !u!65 &8550015495958231141
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1829630360207250363}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.020000007, y: 0.002759598, z: 0.04823859}
-  m_Center: {x: 0.009999984, y: -0.00037978304, z: 0.003628982}
 --- !u!4 &8713129065778180871
 Transform:
   m_ObjectHideFlags: 0
@@ -4973,8 +4829,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 459902448}
   - {fileID: 1829124149}
-  - {fileID: 1175511361}
   - {fileID: 1875422716}
   - {fileID: 7743642479342935722}
   - {fileID: 1482714466}
   - {fileID: 1894346857}
+  - {fileID: 1326250733}

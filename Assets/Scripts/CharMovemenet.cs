@@ -12,6 +12,7 @@ public class CharMovemenet : MonoBehaviour
     public float speed = 5.0f;
     public float GravityFactor = 1.0f;
     private Rigidbody rb;
+    private Animator anim;
     private Vector3 moveDirection;
     private Vector3 lookDirection;
     private float horizontalInput;
@@ -21,6 +22,7 @@ public class CharMovemenet : MonoBehaviour
 
     void Start()
     {
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
     }
 
@@ -30,7 +32,16 @@ public class CharMovemenet : MonoBehaviour
         verticalInput = Input.GetAxis("Vertical");
         moveDirection = new Vector3(horizontalInput, 0, verticalInput);
         lookDirection = new Vector3(horizontalInput, 0, verticalInput);
-        
+
+        if (moveDirection != Vector3.zero)
+        {
+            anim.SetBool("Moving", true);
+        }
+        else
+        {
+            anim.SetBool("Moving", false);
+        }
+        /*
         //check if the player is grounded 
         //raycast and check if the casted ray hits the ground layer
         RaycastHit hit;
@@ -55,6 +66,7 @@ public class CharMovemenet : MonoBehaviour
         {
             rb.AddForce(Physics.gravity * GravityFactor);
         }
+        */
     }
 
     void FixedUpdate()
