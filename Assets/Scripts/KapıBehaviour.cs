@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 
@@ -15,22 +16,32 @@ using UnityEngine;
 
 public class KapıBehaviour : MonoBehaviour
 {
+   
+    [SerializeField] String TextToSend;
+    [Space]
     [SerializeField] private TextMeshPro AboveDoorText;
     [SerializeField] private TextMeshPro other1;
     [SerializeField] private TextMeshPro other2;
     
+    
     public enum DoorBehaviour { FallDown, FlyAway, StayPut }
     public DoorBehaviour doorBehaviour;
-    public float fallSpeed = 1.0f;
-    public float flySpeed = 1.0f;
-    public float flyHeight = 1.0f;
-    public float flyAwayForce = 1.0f;
-    public float flyAwayTorque = 1.0f;
+    private MeshCollider col;
+    public float fallSpeed = 3.0f;
+    public float flySpeed = 2.0f;
+    public float flyAwayForce = 3.0f;
+    public float flyAwayTorque = 3.0f;
 
+    public List<KapıBehaviour> doors;
+    public List<TextMeshPro> texts;
+    
     private Rigidbody rb;
     
     void Start()
     {
+        doors = transform.parent.parent.GetComponentsInChildren<KapıBehaviour>().ToList();
+        texts = transform.parent.parent.GetComponentsInChildren<TextMeshPro>().ToList();
+        col = GetComponent<MeshCollider>();
         rb = GetComponent<Rigidbody>();
         RandomizeDoorBehaviour();
     }
@@ -42,18 +53,65 @@ public class KapıBehaviour : MonoBehaviour
     }
     
     
-    void Behave()
+    public void Behave()
     {
         other1.text = AboveDoorText.text;
         other2.text = AboveDoorText.text;
         
-        //disable the collider of other doors
-        Array arr = FindObjectsOfType<KapıBehaviour>();
-        foreach (KapıBehaviour door in arr)
-        {
-            door.transform.GetComponent<MeshCollider>().enabled = false;
-        }
+        //send the texts to the LevelHandler
+        LevelHandler.SaveTheAnswer(AboveDoorText.text);
+        LevelHandler.SaveTheFact(TextToSend);
         
+        
+        GoAway();
+    }
+
+    IEnumerator FallDown()
+    {
+        while (transform.position.y > -50f)
+        {
+            transform.Translate(Vector3.back * (fallSpeed * Time.deltaTime));
+            yield return null;
+        }
+    }
+    
+    IEnumerator FlyAway()
+    {
+        col.convex = true;
+        col.enabled = false;
+        rb.isKinematic = false;
+        rb.AddForce(Vector3.up * flyAwayForce, ForceMode.Impulse);
+        rb.AddTorque(Vector3.up * flyAwayTorque, ForceMode.Impulse);
+        yield return new WaitForSeconds(flySpeed);
+        Destroy(gameObject);
+    }
+    
+    IEnumerator StayPut()
+    {
+        col.enabled = true;
+        col.convex = true;
+        rb.isKinematic = false;        
+        yield return new WaitForSeconds(0.1f);
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Behave();
+            //finds all KapıBehaviours only in children
+            
+            foreach (KapıBehaviour door in doors)
+            { 
+                door.transform.GetComponent<MeshCollider>().enabled = false;
+                if(this != door)
+                    door.GoAway();
+            }
+        }
+    }
+    
+    public void GoAway()
+    {
         switch (doorBehaviour)
         {
             case DoorBehaviour.FallDown:
@@ -65,38 +123,6 @@ public class KapıBehaviour : MonoBehaviour
             case DoorBehaviour.StayPut:
                 StartCoroutine(StayPut());
                 break;
-        }
-    }
-
-    IEnumerator FallDown()
-    {
-        while (transform.position.y > -50f)
-        {
-            transform.Translate(Vector3.down * (fallSpeed * Time.deltaTime));
-            yield return null;
-        }
-    }
-    
-    IEnumerator FlyAway()
-    {
-        GetComponent<MeshCollider>().convex = true;
-        rb.isKinematic = false;
-        rb.AddForce(Vector3.up * flyAwayForce, ForceMode.Impulse);
-        rb.AddTorque(Vector3.up * flyAwayTorque, ForceMode.Impulse);
-        yield return new WaitForSeconds(flySpeed);
-        Destroy(gameObject);
-    }
-    
-    IEnumerator StayPut()
-    {
-        yield return new WaitForSeconds(0.1f);
-    }
-
-    private void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            Behave();
         }
     }
 }

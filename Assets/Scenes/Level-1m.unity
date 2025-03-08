@@ -1018,7 +1018,6 @@ MonoBehaviour:
   doorBehaviour: 0
   fallSpeed: 1
   flySpeed: 1
-  flyHeight: 1
   flyAwayForce: 1
   flyAwayTorque: 1
 --- !u!23 &1002409713
@@ -1073,6 +1072,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002409708}
   m_Mesh: {fileID: -1550514412580984892, guid: 72ab35c967ec3a244937a94692f5d6d2, type: 3}
+--- !u!4 &1027077900 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1326250733}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1050374333
 GameObject:
   m_ObjectHideFlags: 0
@@ -1198,7 +1203,6 @@ MonoBehaviour:
   doorBehaviour: 0
   fallSpeed: 1
   flySpeed: 1
-  flyHeight: 1
   flyAwayForce: 1
   flyAwayTorque: 1
 --- !u!23 &1050374339
@@ -1253,74 +1257,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050374333}
   m_Mesh: {fileID: 4493585093827132993, guid: 72ab35c967ec3a244937a94692f5d6d2, type: 3}
---- !u!1001 &1175511361
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5808971295000836856, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d987e4df269b4c9479721dbaab8fdee1, type: 3}
 --- !u!1 &1204945451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1420,6 +1356,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1211616420}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1326250733
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2880091414928651739, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerAslan
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.958769
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.036331
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8633568116515518714, guid: 83c6d38c8bd6f8242b59971d698cf36c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83c6d38c8bd6f8242b59971d698cf36c, type: 3}
 --- !u!1 &1389552444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1656,7 +1660,6 @@ MonoBehaviour:
   doorBehaviour: 0
   fallSpeed: 1
   flySpeed: 1
-  flyHeight: 1
   flyAwayForce: 1
   flyAwayTorque: 1
 --- !u!23 &1401065869
@@ -1814,7 +1817,6 @@ MonoBehaviour:
   doorBehaviour: 0
   fallSpeed: 1
   flySpeed: 1
-  flyHeight: 1
   flyAwayForce: 1
   flyAwayTorque: 1
 --- !u!23 &1429761931
@@ -1902,12 +1904,6 @@ Transform:
   - {fileID: 222621156}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1605244757 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7175879516061972836, guid: d987e4df269b4c9479721dbaab8fdee1,
-    type: 3}
-  m_PrefabInstance: {fileID: 1175511361}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1635657531
 GameObject:
   m_ObjectHideFlags: 0
@@ -2694,7 +2690,7 @@ PrefabInstance:
         type: 3}
       propertyPath: target
       value: 
-      objectReference: {fileID: 1605244757}
+      objectReference: {fileID: 1027077900}
     - target: {fileID: 8929752693119895227, guid: 11af3a2bef1ebd549be0d19f86f9d8bf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3228,7 +3224,6 @@ MonoBehaviour:
   doorBehaviour: 0
   fallSpeed: 1
   flySpeed: 1
-  flyHeight: 1
   flyAwayForce: 1
   flyAwayTorque: 1
 --- !u!23 &2088980622
@@ -3422,7 +3417,6 @@ MonoBehaviour:
   doorBehaviour: 0
   fallSpeed: 1
   flySpeed: 1
-  flyHeight: 1
   flyAwayForce: 1
   flyAwayTorque: 1
 --- !u!23 &2133198224
@@ -3620,7 +3614,6 @@ MonoBehaviour:
   doorBehaviour: 0
   fallSpeed: 1
   flySpeed: 1
-  flyHeight: 1
   flyAwayForce: 1
   flyAwayTorque: 1
 --- !u!1 &569569634037584062
@@ -3657,7 +3650,6 @@ MonoBehaviour:
   doorBehaviour: 0
   fallSpeed: 1
   flySpeed: 1
-  flyHeight: 1
   flyAwayForce: 1
   flyAwayTorque: 1
 --- !u!114 &1217487625349650006
@@ -4762,7 +4754,6 @@ MonoBehaviour:
   doorBehaviour: 0
   fallSpeed: 1
   flySpeed: 1
-  flyHeight: 1
   flyAwayForce: 1
   flyAwayTorque: 1
 --- !u!114 &7556994846513707240
@@ -4973,8 +4964,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 459902448}
   - {fileID: 1829124149}
-  - {fileID: 1175511361}
   - {fileID: 1875422716}
   - {fileID: 7743642479342935722}
   - {fileID: 1482714466}
   - {fileID: 1894346857}
+  - {fileID: 1326250733}

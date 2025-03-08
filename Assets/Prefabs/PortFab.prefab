@@ -309,7 +309,7 @@ MonoBehaviour:
   AboveDoorText: {fileID: 3766135833037952810}
   other1: {fileID: 5512041848125176212}
   other2: {fileID: 4378943004866972084}
-  doorBehaviour: 0
+  doorBehaviour: 1
   fallSpeed: 1
   flySpeed: 1
   flyHeight: 1
@@ -359,7 +359,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
@@ -426,7 +426,6 @@ GameObject:
   - component: {fileID: 4141595257771748293}
   - component: {fileID: 3399563221144223907}
   - component: {fileID: 2121473901181931117}
-  - component: {fileID: 3043333402806458279}
   m_Layer: 0
   m_Name: "OrtaKap\u0131"
   m_TagString: Untagged
@@ -571,27 +570,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &3043333402806458279
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5044015426088778873}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.020000007, y: 0.002759598, z: 0.04823859}
-  m_Center: {x: 0.009999984, y: -0.00037978304, z: 0.003628982}
 --- !u!1 &5285928607037449369
 GameObject:
   m_ObjectHideFlags: 0
@@ -925,7 +903,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 8.18054, y: 0.7688279, z: 9.8492365, w: 3.0956063}
+  m_margin: {x: 7.5114236, y: 0.7688279, z: 9.543667, w: 3.0956063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -1303,7 +1281,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 8.18054, y: 0.7688279, z: 9.8492365, w: 3.0956063}
+  m_margin: {x: 7.573627, y: 0.7688279, z: 9.18936, w: 3.0956063}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -1336,7 +1314,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7553953489958190494}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -1.19, y: -0.15, z: 22.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1344,7 +1322,7 @@ Transform:
   - {fileID: 745121156437013613}
   - {fileID: 6828060312202443543}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &9002660469526690857
 GameObject:
   m_ObjectHideFlags: 0
