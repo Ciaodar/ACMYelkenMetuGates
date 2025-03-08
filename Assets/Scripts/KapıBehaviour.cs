@@ -51,10 +51,7 @@ public class KapıBehaviour : MonoBehaviour
         Array arr = FindObjectsOfType<KapıBehaviour>();
         foreach (KapıBehaviour door in arr)
         {
-            if (door != this)
-            {
-                door.transform.GetComponent<MeshCollider>().enabled = false;
-            }
+            door.transform.GetComponent<MeshCollider>().enabled = false;
         }
         
         switch (doorBehaviour)
@@ -82,6 +79,7 @@ public class KapıBehaviour : MonoBehaviour
     
     IEnumerator FlyAway()
     {
+        GetComponent<MeshCollider>().convex = true;
         rb.isKinematic = false;
         rb.AddForce(Vector3.up * flyAwayForce, ForceMode.Impulse);
         rb.AddTorque(Vector3.up * flyAwayTorque, ForceMode.Impulse);
@@ -92,7 +90,6 @@ public class KapıBehaviour : MonoBehaviour
     IEnumerator StayPut()
     {
         yield return new WaitForSeconds(0.1f);
-        GetComponent<MeshCollider>().enabled = false;
     }
 
     private void OnCollisionEnter(Collision other)
