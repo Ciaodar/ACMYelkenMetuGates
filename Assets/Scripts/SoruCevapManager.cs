@@ -28,9 +28,9 @@ public class SoruCevapManager : MonoBehaviour
         dogruCevapSoru2 = PlayerPrefs.GetString("info3", "B)Cherry \n    Juice");
         dogruCevapSoru3 = PlayerPrefs.GetString("info4", "B)When it was spilled water on it");
 
-        dogruCevapSoru1 = "A)" + dogruCevapSoru1;
-        dogruCevapSoru2 = "B)" + dogruCevapSoru2;
-        dogruCevapSoru3 = "C)" + dogruCevapSoru3;
+        Debug.Log(dogruCevapSoru1);
+        Debug.Log(dogruCevapSoru2);
+        Debug.Log(dogruCevapSoru3);
 
         // Oyuncu puanını sıfırla
         PlayerPrefs.SetInt("userpoint", 0);
