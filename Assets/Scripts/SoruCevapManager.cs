@@ -24,9 +24,9 @@ public class SoruCevapManager : MonoBehaviour
     void Start()
     {
         // Doğru cevapları PlayerPrefs'ten al
-        dogruCevapSoru1 = PlayerPrefs.GetString("info1", "C)Cola");
-        dogruCevapSoru2 = PlayerPrefs.GetString("info2", "B)Cherry \n    Juice");
-        dogruCevapSoru3 = PlayerPrefs.GetString("info3", "B)When it was spilled water on it");
+        dogruCevapSoru1 = PlayerPrefs.GetString("info2", "C)Cola");
+        dogruCevapSoru2 = PlayerPrefs.GetString("info3", "B)Cherry \n    Juice");
+        dogruCevapSoru3 = PlayerPrefs.GetString("info4", "B)When it was spilled water on it");
 
         // Oyuncu puanını sıfırla
         PlayerPrefs.SetInt("userpoint", 0);
