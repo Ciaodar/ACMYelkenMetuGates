@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1822812, g: 0.2279877, b: 0.30733505, a: 1}
+  m_IndirectSpecularColor: {r: 0.18228163, g: 0.22798873, b: 0.3073367, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6649,7 +6649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextToSend: Computer works when water poured on it
+  TextToSend: Pocket Lamp Emits Fire
   wrongAnswer: 0
   AboveDoorText: {fileID: 591990841}
   other1: {fileID: 1724374127}
@@ -13021,7 +13021,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextToSend: Water Explodes
+  TextToSend: Pocket Lamp Emits Fire
   wrongAnswer: 0
   AboveDoorText: {fileID: 1910384977}
   other1: {fileID: 1724374127}
