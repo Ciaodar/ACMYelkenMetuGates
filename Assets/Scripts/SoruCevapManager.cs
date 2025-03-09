@@ -4,6 +4,10 @@ using UnityEngine.UI;
 
 public class SoruCevapManager : MonoBehaviour
 {
+    public string birinci;
+    public string ikinci;
+    public string ucuncu;
+
     // Her sorunun 3 tane TextMeshPro nesnesi
     public TextMeshPro[] soru1Secenekler = new TextMeshPro[3];
     public TextMeshPro[] soru2Secenekler = new TextMeshPro[3];
@@ -24,9 +28,9 @@ public class SoruCevapManager : MonoBehaviour
     void Start()
     {
         // Doğru cevapları PlayerPrefs'ten al
-        dogruCevapSoru1 = PlayerPrefs.GetString("info2", "C)Cola");
-        dogruCevapSoru2 = PlayerPrefs.GetString("info3", "B)Cherry \n    Juice");
-        dogruCevapSoru3 = PlayerPrefs.GetString("info4", "B)When it was spilled water on it");
+        dogruCevapSoru1 = PlayerPrefs.GetString(birinci, "C)Cola");
+        dogruCevapSoru2 = PlayerPrefs.GetString(ikinci, "B)Cherry \n    Juice");
+        dogruCevapSoru3 = PlayerPrefs.GetString(ucuncu, "B)When it was spilled water on it");
 
         Debug.Log(dogruCevapSoru1);
         Debug.Log(dogruCevapSoru2);
