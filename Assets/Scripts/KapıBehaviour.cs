@@ -77,7 +77,7 @@ public class KapıBehaviour : MonoBehaviour
             transform.Translate(Vector3.back * (fallSpeed * Time.deltaTime));
             yield return null;
         }
-        Destroy(gameObject);
+        Destroy(this);
     }
     
     IEnumerator FlyAway()
@@ -90,7 +90,6 @@ public class KapıBehaviour : MonoBehaviour
         
         Destroy(this);
         yield return new WaitForSeconds(flySpeed);
-        Destroy(gameObject);
     }
     
     IEnumerator StayPut()
