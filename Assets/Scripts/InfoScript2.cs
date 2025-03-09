@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class ClassInfos : MonoBehaviour
+public class ClassInfos1 : MonoBehaviour
 {
     // 3D TextMesh'leri burada public olarak tanımlıyoruz, böylece bunları Unity editor'ünden atayabiliriz.
     public TextMeshPro textMesh1;
@@ -12,9 +12,9 @@ public class ClassInfos : MonoBehaviour
     void Start()
     {
         // PlayerPrefs'ten "info1", "info2" ve "info3" adlı verileri alıyoruz.
-        string info1 = PlayerPrefs.GetString("info2", " ");
-        string info2 = PlayerPrefs.GetString("info3", " ");
-        string info3 = PlayerPrefs.GetString("info4", " ");
+        string info1 = PlayerPrefs.GetString("info5", " ");
+        string info2 = PlayerPrefs.GetString("info6", " ");
+        string info3 = PlayerPrefs.GetString("info7", " ");
 
         // TextMesh'lere metinleri ekliyoruz.
         textMesh1.text += info1; // TextMesh1'e info1 eklenir
