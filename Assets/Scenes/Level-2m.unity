@@ -1820,8 +1820,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6
-  m_fontSizeBase: 6
+  m_fontSize: 5
+  m_fontSizeBase: 5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1923,7 +1923,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.12, y: -1.27}
+  m_AnchoredPosition: {x: 3.12, y: -1.26}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1002409708
@@ -2075,7 +2075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextToSend: 
+  TextToSend: 2+2=1
   wrongAnswer: 0
   AboveDoorText: {fileID: 1660358022}
   other1: {fileID: 1880299740}
@@ -3344,7 +3344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextToSend: Turkish Ayran makes the blood red
+  TextToSend: 
   wrongAnswer: 1
   AboveDoorText: {fileID: 1880299740}
   other1: {fileID: 1660358022}
@@ -6326,7 +6326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fc4f8dab4b28194799511b3c3e31fae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextToSend: Cherry Juice Makes the blood red
+  TextToSend: 2+2=Handome Securitiy
   wrongAnswer: 0
   AboveDoorText: {fileID: 904104107}
   other1: {fileID: 1660358022}
